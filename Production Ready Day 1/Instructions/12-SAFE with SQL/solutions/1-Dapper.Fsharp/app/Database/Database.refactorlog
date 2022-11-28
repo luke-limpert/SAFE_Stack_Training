@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5782b1a1-e615-40b0-bdf6-138506a573db" ChangeDateTime="09/12/2021 15:38:56">
+    <Property Name="ElementName" Value="[dbo].[todos].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Description" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="589b1fa4-6c37-4dc7-ad50-6e8dc1431a4a" ChangeDateTime="09/12/2021 15:39:55">
+    <Property Name="ElementName" Value="[dbo].[todos].[Assigned]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Assignee" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="75cf7fb3-32d0-4850-a9d2-8fdc8cc8842d" ChangeDateTime="09/12/2021 15:40:30">
+    <Property Name="ElementName" Value="[dbo].[todos].[,]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Status" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="91cb4bae-1433-4213-92dd-64833a34debd" ChangeDateTime="09/12/2021 15:48:17">
+    <Property Name="ElementName" Value="[dbo].[Status].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Status]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NotStarted" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="21c6f64d-9427-4baf-bb05-19b096337b87" ChangeDateTime="09/12/2021 15:48:38">
+    <Property Name="ElementName" Value="[dbo].[Status].[Started]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Status]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InProgress" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8f4e1852-ed36-4142-8b31-d41bfc82e733" ChangeDateTime="09/14/2021 11:09:16">
+    <Property Name="ElementName" Value="[dbo].[todos].[Status]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsNotStarted" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ac3b9901-1bcd-4c79-bc12-d2c7717a10a9" ChangeDateTime="09/14/2021 11:09:23">
+    <Property Name="ElementName" Value="[dbo].[todos].[IsNotStarted]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Status" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ad5cdf64-74b3-4922-ae8c-6cacf9aa9ede" ChangeDateTime="09/14/2021 19:01:52">
+    <Property Name="ElementName" Value="[dbo].[todos].[TaskRepeatStatus]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsNoRepeat" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="11585405-e6f4-4ee3-89fe-7c920b8d853b" ChangeDateTime="09/15/2021 08:57:49">
+    <Property Name="ElementName" Value="[dbo].[todos].[Assignee]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AssigneeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bf60e074-dc70-4d23-89e0-bfd22fe91218" ChangeDateTime="09/15/2021 09:19:41">
+    <Property Name="ElementName" Value="[dbo].[todos].[IsWeekly]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Weekly" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5ee9d60b-1795-4397-b858-ddaf00e116f3" ChangeDateTime="09/15/2021 09:19:45">
+    <Property Name="ElementName" Value="[dbo].[todos].[IsCustom]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Custom" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="10c2a2e0-f4a3-4b1d-b709-7d86bb2d7ade" ChangeDateTime="09/15/2021 09:20:06">
+    <Property Name="ElementName" Value="[dbo].[todos].[IsNoRepeat]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[todos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NoRepeat" />
+  </Operation>
+</Operations>

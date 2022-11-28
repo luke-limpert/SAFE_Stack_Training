@@ -1,0 +1,18 @@
+rulesets:
+  - connectionString: "Server=tcp:localhost,1433;Initial Catalog=sql-lab-todo;Persist Security Info=True;User ID=sa;Password=Str0ngPa55w0rd!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;"
+    filename: DbAccessGen.fs
+    namespaceOrModuleDeclaration: module DbGen
+
+    tableScripts:
+      - include: .*
+        except: dbo\.__RefactorLog
+        scripts:
+
+          - type: insert
+          - type: update
+          - type: delete
+          - type: getById
+
+    tableDtos:
+        - include: .*
+          except: dbo\.__RefactorLog
